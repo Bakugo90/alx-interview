@@ -39,4 +39,4 @@ guillaume@ubuntu:~/0x00$ ./0-main.py
 guillaume@ubuntu:~/0x00$
 ```
 
-- Solution: [0-pascal_triangle.py](https://github.com/Bakugo90/alx-interview/blob/main/0-pascal_triangle.py)
+- Solution: [0-pascal_triangle.py](https://github.com/Bakugo90/alx-interview/blob/main/0x00-pascal_triangle/0-pascal_triangle.py)
