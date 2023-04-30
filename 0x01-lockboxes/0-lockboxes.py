@@ -11,15 +11,13 @@ def canUnlockAll(boxes):
     This function is a method that determines if all the boxes can be opened
     """
 
-    visited = []
-    visited.insert(0, boxes[0])
+    visited = [False] * len(boxes)
+    visited[0] = True
 
     for boxe in range(len(boxes)):
-        if boxes[boxe] == []:
-            pass
-        for key in range(len(boxes[boxe])):
-            idx = boxes[boxe][key]
-            if idx != boxe and boxes[idx] not in visited:
-                visited.append(boxes[idx])
+        if visited[boxe]:
+            for key in boxes[boxe]:
+                if key != boxe and not visited[key]:
+                    visited[key] = True
 
-    return len(visited) == len(boxes)
+    return all(visited)
