@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+    Collection module
+"""
 from collections import deque
 
 
