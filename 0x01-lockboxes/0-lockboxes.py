@@ -11,7 +11,7 @@ def canUnlockAll(boxes):
     """
     This function is a method that determines if all the boxes can be opened
     """
-    
+
     n = len(boxes)
     visited = set([0])
     queue = deque([0])
