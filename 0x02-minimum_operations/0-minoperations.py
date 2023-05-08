@@ -16,6 +16,9 @@ def minOperations(n):
     # count the number of operation
     operation = 0
 
+    if not isinstance(n, int):
+        return 0
+
     while counter < n:
         # count copy operation
         if n % counter == 0:
