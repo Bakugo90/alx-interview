@@ -17,8 +17,6 @@ def compute_metric(dict_sc, total_file_size):
     Returns:
         Nothing
     """
-
-
     print("File size: {}".format(total_file_size))
     for key, value in sorted(dict_sc.items()):
         if value != 0:
